@@ -1,0 +1,156 @@
+<?php 
+// filepath: /odoo-erp-manual/odoo-erp-manual/src/views/module-crm.php
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo CRM - Odoo ERP</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Módulo CRM</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.php">Inicio</a></li>
+                <li><a href="guia_instal·lació.php">Guía Instalación</a></li>
+                <li><a href="Módulo CRM.php" class="active">Módulo CRM</a></li>
+                <li><a href="Módulo Gestión de ventas.php">Módulo Gestión de ventas</a></li>
+                <li><a href="Backup.php">Backup</a></li>
+                <li><a href="conclusions.php">Conclusiones</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="content-with-image">
+            <div class="text">
+                <h2>Módulo CRM (Customer Relationship Management)</h2>
+                <h3>Justificación de la elección:</h3>
+                <p>
+                    El módulo CRM es esencial para cualquier PYME que desee gestionar de manera profesional su relación con los clientes, aumentar su base de datos comercial y mejorar su tasa de conversión de ventas.
+                    Una de las grandes ventajas de un CRM es que centraliza toda la información de contacto, histórico de comunicación y oportunidades comerciales en una sola plataforma.
+                </p>
+                <p>
+                    Para una PYME que busca crecer en un mercado competitivo, el CRM no solo permite captar nuevos clientes sino también fidelizar a los existentes, realizar un seguimiento efectivo de cada venta
+                    y mejorar la toma de decisiones mediante informes claros y actualizados.
+                </p>
+
+                <h3>Características destacadas:</h3>
+                <ul>
+                    <li><strong>Gestión de clientes potenciales (leads):</strong> registro automático o manual de nuevos contactos.</li>
+                    <li><strong>Pipeline visual:</strong> seguimiento de las oportunidades de negocio mediante etapas personalizables (en la imagen se muestra).</li>
+                    <li><strong>Automatización de tareas:</strong> permite asignar automáticamente tareas o seguimientos a los responsables.</li>
+                    <li><strong>Interacción directa con clientes:</strong> integración con correo electrónico, llamadas, reuniones (vinculadas con el Calendario).</li>
+                    <li><strong>Historial completo de interacciones:</strong> acceso rápido a toda la información previa de un cliente.</li>
+                    <li><strong>Análisis y reportes de ventas:</strong> herramientas gráficas y estadísticas para evaluar el rendimiento comercial.</li>
+                </ul>
+            </div>
+            
+            <div class="images-vertical"><br><br><br><br><br>
+                <img src="../../img/CRM_justificacion.png" alt="CRM Justificación">
+                <img src="../../img/ManualCRM1.png" alt="Manual CRM">
+            </div>
+            
+                
+            
+        </section>
+
+        <section class="content-with-image">
+            <div class="text">
+                <h2>1. Crear un cliente potencial (Lead) o una oportunidad</h2>
+                <h3>¿Qué hacer?</h3>
+                <ol>
+                    <li>Dentro del CRM, haz clic en el botón “Crear” en la parte superior izquierda.</li>
+                    <li>Se abrirá un formulario. Completa la información básica:
+                        <ul>
+                            <li>Nombre de la oportunidad.</li>
+                            <li>Cliente (si ya existe) o crea uno nuevo.</li>
+                            <li>Etapa inicial (por defecto será "Nuevo").</li>
+                            <li>Persona asignada.</li>
+                            <li>Detalles adicionales como teléfono, email, valor esperado, etc.</li>
+                        </ul>
+                    </li>
+                    <li>Haz clic en “Guardar”.</li>
+                </ol>
+            </div>
+        
+            <div class="images-vertical2">
+                <img src="../../img/ManualCRM2.png" alt="crear cliente potencial">
+                <img src="../../img/ManualCRM3.png" alt="crear cliente potencial2">
+                <img src="../../img/ManualCRM4.png" alt="crear cliente potencial3">
+            </div>
+        </section>
+
+        <section class="content-with-image">
+            <div class="text">
+                <h2>2. Gestionar el pipeline (embudo de ventas)</h2>
+                <h3>¿Qué hacer?</h3>
+                <ol>
+                    <li>Visualiza todas tus oportunidades en columnas según su etapa: Nuevo, Calificado, Propuesta, Ganado, etc.</li>
+                    <li>Arrastra las tarjetas de las oportunidades de una etapa a otra para reflejar su avance.</li>
+                    <li>Puedes personalizar las etapas haciendo clic en el ícono de configuración del pipeline.</li>
+                </ol>
+            </div>
+            <div class="images-vertical2">
+                <img src="../../img/ManualCRM5.png" alt="crear cliente potencial">
+                <img src="../../img/ManualCRM6.png" alt="crear cliente potencial2">
+                <img src="../../img/ManualCRM7.png" alt="crear cliente potencial3">
+            </div>
+        </section>
+
+        <section class="content-with-image">
+            <div class="text">
+                <h2>3. Programar una reunión o llamada (vinculado a Calendar)</h2>
+                <h3>¿Qué hacer?</h3>
+                <ol>
+                    <li>Abre una oportunidad específica.</li>
+                    <li>Haz clic en "Agendar actividad".</li>
+                    <li>Selecciona el tipo (reunión, llamada, tarea, etc.).</li>
+                    <li>Indica la fecha, hora y descripción.</li>
+                    <li>Guarda. Automáticamente se vinculará con el módulo Calendar si está instalado.</li>
+                </ol>
+            </div>
+            <div class="images-vertical2"><br>
+                <img src="../../img/ManualCRM8.png" alt="CRM Justificación">
+                <img src="../../img/ManualCRM9.png" alt="Manual CRM">
+            </div>
+        </section>
+
+        <section class="content-with-image">
+            <div class="text">
+                <h2>4. Marcar una oportunidad como ganada o perdida</h2>
+                <h3>¿Qué hacer?</h3>
+                <ol>
+                    <li>Si la venta se ha concretado, haz clic en “Marcar como ganada”.</li>
+                    <li>Si se ha perdido, haz clic en “Marcar como perdida” y selecciona el motivo.</li>
+                </ol>
+            </div>
+            <div class="images-vertical2"><br>
+                <img src="../../img/ManualCRM10.png" alt="CRM Justificación">
+                <img src="../../img/ManualCRM11.png" alt="Manual CRM">
+            </div>
+        </section>
+
+        <section class="content-with-image">
+            <div class="text">
+                <h2>5. Informes y análisis de ventas</h2>
+                <h3>¿Qué hacer?</h3>
+                <ol>
+                    <li>En el menú superior dentro del CRM, accede a la pestaña “Informes”.</li>
+                    <li>Selecciona vistas gráficas: barras, líneas o tablas dinámicas.</li>
+                    <li>Filtra por fechas, comerciales, etapas, etc.</li>
+                </ol>
+            </div>
+            <div class="images-vertical2"><br>
+                <img src="../../img/ManualCRM12.png" alt="CRM Justificación">
+            </div>
+        </section>
+
+    </main>
+    
+</body>
+</html>

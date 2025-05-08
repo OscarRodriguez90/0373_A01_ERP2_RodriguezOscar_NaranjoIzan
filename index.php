@@ -1,0 +1,41 @@
+<?php
+// filepath: /odoo-erp-manual/src/index.php
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Odoo ERP Manual</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a nuestro manual ERP Odoo</h1>
+        <nav>
+            <ul>
+                <li><a href="src/views/guia_instal·lació.php">Guia d'Instal·lació</a></li>
+                <li><a href="src/views/Módulo CRM.php">Módulo CRM</a></li>
+                <li><a href="src/views/Módulo Gestión de ventas.php">Módulo Gestión de ventas</a></li>
+                <li><a href="src/views/Backup.php">Backup</a></li>
+                <li><a href="src/views/conclusions.php">Conclusions</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Introduccion</h2>
+            <p>En esta página presentamos el desarrollo de una actividad práctica en grupo cuyo objetivo principal fue instalar, configurar y utilizar el sistema ERP Odoo 16 Community en un entorno simulado, como parte del aprendizaje sobre soluciones tecnológicas para la gestión empresarial.
+            <br>
+            Durante el trabajo, instalamos Odoo en una máquina virtual, creamos una base de datos personalizada y seleccionamos dos módulos diferentes, cada uno centrado en cubrir necesidades clave de una pequeña o mediana empresa (PYME). Además, realizamos una copia de seguridad de la base de datos y la restauramos en el sistema del otro integrante del grupo, lo cual permitió comprobar la portabilidad y seguridad de los datos en este tipo de sistemas.
+            <br>
+            En esta web encontrarás una guía paso a paso de la instalación, una explicación de los módulos utilizados, el procedimiento de copia y restauración de la base de datos, y nuestras conclusiones sobre lo aprendido. Todo esto acompañado de capturas de pantalla y ejemplos para facilitar la comprensión del proceso.</p>
+        </section>
+        <div class="images-vertical"><br>
+                <img src="./img/intro.webp" alt="intro">
+                
+        </div>
+    </main>
+    
+</body>
+</html>
