@@ -12,7 +12,7 @@
         <h1>Conclusions</h1>
         <nav>
             <ul>
-                <li><a href="../../index.php">Home</a></li>
+                <li><a href="../../index.html">Home</a></li>
                 <li><a href="guia_instal·lació.php">Guia instal·lació</a></li>
                 <li><a href="Módulo CRM.php">Modul CRM</a></li>
                 <li><a href="Módulo Gestión de ventas.php">Módulo Gestión de ventas</a></li>

@@ -15,7 +15,7 @@
         <h1>Módulo CRM</h1>
         <nav>
             <ul>
-                <li><a href="../../index.php">Inicio</a></li>
+                <li><a href="../../index.html">Inicio</a></li>
                 <li><a href="guia_instal·lació.php">Guía Instalación</a></li>
                 <li><a href="Módulo CRM.php" class="active">Módulo CRM</a></li>
                 <li><a href="Módulo Gestión de ventas.php">Módulo Gestión de ventas</a></li>

@@ -11,7 +11,7 @@
         <h1>Guía de Instalación de Odoo</h1>
         <nav>
             <ul>
-                <li><a href="../../index.php">Inicio</a></li>
+                <li><a href="../../index.html">Inicio</a></li>
                 <li><a href="guia_instal·lació.php" class="active">Guía Instal·lació</a></li>
                 <li><a href="Módulo CRM.php">Módulo CRM</a></li>
                 <li><a href="Módulo Gestión de ventas.php">Módulo Gestión de ventas</a></li>

@@ -11,7 +11,7 @@
         <h1>Database Backup</h1>
         <nav>
             <ul>
-                <li><a href="../../index.php">Home</a></li>
+                <li><a href="../../index.html">Home</a></li>
                 <li><a href="guia_instal·lació.php">Guia Instal·lació</a></li>
                 <li><a href="Módulo CRM.php">Módulo CRM</a></li>
                 <li><a href="Módulo Gestión de ventas.php">Módulo Gestión de ventas</a></li>
